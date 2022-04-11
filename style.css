@@ -772,3 +772,21 @@ background-position: center center !important;
   .ftco-footer-social li .fa:hover {
     color: #000000;
   }
+  #myBtn {
+    display: none;
+    position:fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 19, 19);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #c8a97e;
+  }
