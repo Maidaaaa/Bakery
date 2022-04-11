@@ -33,7 +33,7 @@
                 <li class="nav-item "><a href="#about" class="nav-link">O nama</a></li>
                 <li class="nav-item "><a href="#menu" class="nav-link">Meni</a></li>
                 <li class="nav-item "><a href="#testimonial" class="nav-link">Zadovoljni kupci</a></li>
-                <li class="nav-item cta"><a href="#" class="nav-link">Naruči</a></li>
+                <li class="nav-item cta"><a href="#order" class="nav-link">Naruči</a></li>
                 <li class="nav-item "><a href="#" class="nav-link">Kontakt</a></li>
 
             </ul>
@@ -501,10 +501,102 @@
         </div>
     </section>
 
+<!--Order section-->
+<section class="ftco-section" id="order"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-7 ftco-animate makereservation p-4 px-md-5 pb-md-5">
+                    <div class="heading-section ftco-animate mb-5 text-center">
+                        <span class="subheading">Naruči</span>
+                        <h2 class="mb-4">svoj proizvod</h2>
+                    </div>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Ime</label>
+                                    <input type="text" class="form-control" placeholder="Unesite svoje ime">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="email" class="form-control" placeholder="Unesite svoj email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Adresa</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Broj telefona</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Datum</label>
+                                    <input type="text" class="form-control" id="book_date" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Vrijeme</label>
+                                    <input type="text" class="form-control" id="book_time" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Proizvodi</label>
+                                    <div class="select-wrap one-third">
+                                        <div class="icon"><span class="ios-ios-arrow-down"></span></div>
+                                        <select name="" id="" class="form-control">
+                                            <optgroup label="Kolači">
+                                            <option value="">Oblatne</option>
+                                            <option value="">Muffin</option>
+                                            <option value="">Čupavci</option>
+                                            </optgroup>
+                                            <optgroup label="Slana peciva">
+                                            <option value="">Pizza</option>
+                                            <option value="">Slana kifla</option>
+                                            <option value="">Buhtla sa sirom</option>
+                                            </optgroup>
+                                            <optgroup label="Slatka peciva">
+                                            <option value="">Lisnato tijesto</option>
+                                            <option value="">Krofne</option>
+                                            <option value="">Buhtla</option>
+                                            </optgroup>
 
+                                        </select>
+                                    </div>
 
-
-
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="">Količina</label>
+                                    <div class="select-wrap one-third">
+                                        <div class="icon"><span class="ios-ios-arrow-down"></span></div>
+                                            <input class="form-control" type="number" min="1">
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <div class="form-group text-center">
+                                    <input type="submit" value="Naruči" class="btn btn-primary py-3 px-5">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
  <!-- scripts -->
  <script src="js/jquery.min.js"></script>
